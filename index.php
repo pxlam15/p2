@@ -10,7 +10,7 @@ ini_set('display_errors', 1);
 	<title> Password Generator </title>
 	<meta charset 'utf-8'>
 
-	<?php require 'logic.php'; ?>
+	<?php require 'C:\xampp\htdocs\p2\logic\logic.php'; ?>
 
 </head>
 
@@ -21,16 +21,13 @@ ini_set('display_errors', 1);
 		<input maxlength= 1 type = 'text' name='num' id='numWords' val ='9'> (Max 9)<br>
 		
 		<label for='numPassYes'> Add number to password </label>
-		<input type='checkbox' name='Numbers with Password?' id='numPassYes'> <br>
+		<input type='checkbox' name='numYes' val = '1'/> <br>
 
 		<label for='symPassYes'> Add symbol to pass </label>
-		<input type ='checkbox' name='Symbol with Password?' id 'symPassYes'><br>
+		<input type ='checkbox' name='symYes' val = '1'/><br>
 
-		<input type='submit' value='Gimme Another yo'> <br>
+		<input type='submit' value='Submit'> <br>
 	</form>
-
-	<?php echo $numWords;?>
-
 
 </body>
 </html>
