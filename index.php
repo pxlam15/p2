@@ -6,7 +6,7 @@
 	<meta charset 'utf-8'>
 	<link rel="stylesheet" type="text/css" href="Style/Style 1.0.css">
 
-	<?php require 'C:\xampp\htdocs\p2\logic.php'; ?>
+	<?php require 'logic.php'; ?>
 
 
 </head>
